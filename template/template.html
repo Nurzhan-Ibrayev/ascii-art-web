@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="/style/static.css"/>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="amogus.jpeg">
+    <title>ASCII-ART-WEB-STYLIZE</title>
+</head>
+<body>
+    <div class="ascii">
+        <h1>ASCII ART WEB-STYLIZE</h1>
+    </div>
+   <div class="input1">
+    <form action="/ascii-art" method="post">
+        <textarea class="textarea" name="text" id="" cols="50" rows="5"></textarea>
+        <!-- <button type="submit"    name="style" value="sh">shadow</button>
+        <button type="submit" name="style" value="st">standard</button>
+        <button type="submit" name="style" value="th">thinkertoy</button> -->
+        <select class = "choice" name="choice">
+            <option value="st" selected>Standard</option>
+            <option value="sh" >Shadow</option>
+            <option value="th">Thinkertoy</option> 
+          </select> 
+          <input class="submit" type="submit">
+    </form>
+    </div>
+    <pre class="output1">{{ .Result }}</pre>
+</body>
+
+</html>
+

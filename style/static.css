@@ -1,0 +1,56 @@
+/* p {
+    align-items: center;
+}
+ */
+body {
+   box-sizing: border-box;
+   text-align: center;
+   background-color:rgb(199, 199, 199);
+}
+h1 {
+   font-size: 50px;
+   color:rgb(68, 68, 68)
+}
+
+/* .ascii {
+
+  -webkit-line-clamp: 5;
+          line-clamp: 5;  
+  -webkit-box-orient: vertical; 
+} */
+
+.textarea{
+   display: flex;
+   flex: 1 1 auto;
+   width: 80%;
+   height: 5rem;
+   /* font-size: 1,363636364%; */
+   margin: auto;
+}
+.input1 {
+   display: flex;
+   flex: 1 1 1;
+   width: 60%;
+   margin: auto;
+   align-items: center;
+   justify-content: center;
+   /* size: .8fch; */
+}
+.output1 {
+   margin: 0 auto;
+   display: flex;
+   flex: 1 1 auto;
+   flex-direction: column;
+   border: 3px solid rgb(0, 0, 0); 
+   background-color: rgb(173, 173, 173); 
+   border-radius: 20px;
+   margin: auto;
+   font-size: 1.5rem;
+   overflow: auto;   
+   padding: 3px 0;
+   max-width: 50%;
+}
+.choice, .submit{
+   height: 30px;
+   vertical-align: bottom;
+}
